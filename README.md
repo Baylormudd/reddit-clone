@@ -27,3 +27,34 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# TODO
+- [x] Generate Vue App
+- [x] Create Firebase Project
+    - [x] Strict Rules
+- [ ] Add Firebase Auth
+    - [ ] Save user on login
+        - [ ] update Rules
+- [ ] Add VuexFire
+- [ ] Add subreddits in firestore
+- [ ] Show Subreddits on Homepage
+- [ ] Show single subreddit
+- [ ] New Post form
+    - [ ] update Rules
+- [ ] Display Posts on Subreddit page
+- [ ] upvote/downvote posts
+    - [ ] update Rules
+    - [ ] order by total score
+- [ ] add comment to post
+    - [ ] update Rules
+- [ ] User Profile
+    - [ ] show submitted posts
+    - [ ] show upvoted posts
+    - [ ] show comments
+
+##### Additions
+
+- [ ] allow users to filter by title
+- [ ] allow sorting of posts
+
+
