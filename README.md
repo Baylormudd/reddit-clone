@@ -32,9 +32,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [x] Generate Vue App
 - [x] Create Firebase Project
     - [x] Strict Rules
-- [ ] Add Firebase Auth
-    - [ ] Save user on login
-        - [ ] update Rules
+- [x] Add Firebase Auth
+    - [x] Save user on login
+        - [x] update Rules
 - [ ] Add VuexFire
 - [ ] Add subreddits in firestore
 - [ ] Show Subreddits on Homepage
