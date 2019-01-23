@@ -7,25 +7,25 @@ const state = {
 
 const mutations = {
     setUser(state,user){
+        if (user){
         console.log(user);
         state.user = user;
         state.isLoggedIn = true;
+    } else {
+        state.user = {};
+        state.isLoggedIn = false;
+    }
     },
 };
 
 const actions = {
-    async login({ commit }){
+    async login(){
         const provider = new firebase.auth.GoogleAuthProvider();
-        const { user } = await firebase.auth().signInWithPopup(provider);
-        const setUser =  {
-            id: user.uid,
-            name: user.displayName,
-            image: user.photoURL,
-            created_at: firebase.firestore.FieldValue.serverTimestamp(),
-
-        };
-        db.collection('users').doc(setUser.id).set(setUser);
-        commit('setUser',);
+        await firebase.auth().signInWithPopup(provider);
+  
+    },
+    async logout(){
+        await firebase.auth().signOut();
     },
 
 };
