@@ -35,9 +35,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [x] Add Firebase Auth
     - [x] Save user on login
         - [x] update Rules
-- [ ] Add VuexFire
-- [ ] Add subreddits in firestore
-- [ ] Show Subreddits on Homepage
+- [x] Add VuexFire
+- [x] Add subreddits in firestore
+- [x] Show Subreddits on Homepage
 - [ ] Show single subreddit
 - [ ] New Post form
     - [ ] update Rules
