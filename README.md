@@ -38,8 +38,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [x] Add VuexFire
 - [x] Add subreddits in firestore
 - [x] Show Subreddits on Homepage
-- [ ] Show single subreddit
-- [ ] New Post form
+- [x] Show single subreddit
+- [x] New Post form
     - [ ] update Rules
 - [ ] Display Posts on Subreddit page
 - [ ] upvote/downvote posts
