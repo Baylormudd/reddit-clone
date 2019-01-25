@@ -40,8 +40,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [x] Show Subreddits on Homepage
 - [x] Show single subreddit
 - [x] New Post form
-    - [ ] update Rules
-- [ ] Display Posts on Subreddit page
+    - [x] update Rules
+- [x] Display Posts on Subreddit page
 - [ ] upvote/downvote posts
     - [ ] update Rules
     - [ ] order by total score
